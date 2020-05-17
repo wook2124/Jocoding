@@ -5,27 +5,27 @@ h1 {
 }
 
 h1 span:nth-child(1) {
-    color: #7892f3;
+    color: #4285f4;
 }
 
 h1 span:nth-child(2) {
-    color: #e79a69;
+    color: #ea4335;
 }
 
 h1 span:nth-child(3) {
-    color: #f4cc73;
+    color: #fbbc20;
 }
 
 h1 span:nth-child(4) {
-    color: #7590f4;
+    color: #4285f4;
 }
 
 h1 span:nth-child(5) {
-    color: #a4d275;
+    color: #34a852;
 }
 
 h1 span:nth-child(6) {
-    color: #f78275;
+    color: #ea4335;
 }
 
 .search-bar {
