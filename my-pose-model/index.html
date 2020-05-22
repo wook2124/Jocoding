@@ -1,12 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Pose Model</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://fonts.googleapis.com/earlyaccess/notosanskr.css"
+    />
+
+    <title>Fitness Trainer</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div>Teachable Machine Pose Model</div>
+    <div class="container mt-5">
+      <div class="frame">
+        <div class="center">
+          <div class="headline">
+            <div class="small">Squat</div>
+            <strong>Counter</strong>
+          </div>
+          <div class="circle-big">
+            <div class="text">
+              <span id="counter">0</span>
+              <div class="small">개</div>
+            </div>
+            <svg>
+              <circle class="bg" cx="57" cy="57" r="52" />
+              <circle class="progress" cx="57" cy="57" r="52" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1>Teachable Machine Pose Model - Fitness Trainer</h1>
     <button type="button" onclick="init()">Start</button>
     <div><canvas id="canvas"></canvas></div>
     <div id="label-container"></div>
