@@ -11,6 +11,13 @@ body {
 
 }
 
+.ing {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 600px;
+}
+
 .frame {
     position: absolute;
     top: 50%;
