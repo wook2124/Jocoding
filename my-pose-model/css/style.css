@@ -4,6 +4,13 @@ body {
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:600,400,300);
 
+.start {
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 600px;
+
+}
+
 .frame {
     position: absolute;
     top: 50%;
