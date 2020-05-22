@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>My Pose Model</title>
   </head>
   <body>
     <div>Teachable Machine Pose Model</div>
@@ -55,7 +55,6 @@
         await predict();
         window.requestAnimationFrame(loop);
       }
-
       var status = "stand";
       var count = 0;
       async function predict() {
@@ -72,7 +71,7 @@
             audio.play();
           }
           status = "stand";
-        } else if (prediction[1].probability.toFixed(2) == 1.00) {
+        } else if (prediction[1].probability.toFixed(2) == 1.0) {
           status = "squat";
         } else if (prediction[2].probability.toFixed(2) > 0.9) {
           if (status == "squat" || status == "stand") {
