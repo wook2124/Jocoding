@@ -7,7 +7,7 @@
 
 ## Demo Video
 
-![](Fitness-Trainer_demo)
+![](Fitness-Trainer_demo.gif)
 
 ## Project Description 
 
