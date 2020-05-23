@@ -1,5 +1,4 @@
 #-*- coding:utf-8 -*-
-
 from bs4 import BeautifulSoup as bs
 from urllib.request import urlopen
 from urllib.parse import quote_plus
