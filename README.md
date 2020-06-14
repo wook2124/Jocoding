@@ -23,7 +23,7 @@ AI 트레이너와 운동해보세요! 여러기능들은 아래의 feature를 �
 ## Customization: How to run this project
 
 Very simple. Click [Fitness Trainer](https://my-pose-model.netlify.app/) and Exercising!  
-링크를 클릭하고 운동하세요! 
+위 링크를 클릭하고 같이 운동해요!
 
 ## What I used for this project 
 
