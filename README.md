@@ -11,8 +11,8 @@
 
 ## Project Description 
 
-Try exercise with a AI trainer. Enjoy!  
-AI 트레이너와 운동해보세요! 여러기능들은 아래의 feature를 참고해주세요.
+Try exercise with a AI trainer! Refer to the `Feature` below for the functions.  
+AI 트레이너와 운동해보세요! 기능들은 아래 `Feature`를 참고해주세요.
 
 ### `Feature`
 
