@@ -5,9 +5,6 @@
 
 - [Fitness Trainer](https://my-pose-model.netlify.app/)
 
-## Demo Video
-
-![](Fitness-Trainer_demo.gif)
 
 ## Project Description 
 
